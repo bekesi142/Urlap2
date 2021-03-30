@@ -1,0 +1,64 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(221, 221, 221);
+    padding-right: 300px;
+}
+
+#neved {
+    position: absolute;
+    left: 200px;
+    height: 30px;
+    width: 300px;
+    top: 95px;
+}
+
+#teljes {
+    position: absolute;
+    left: 35px;
+    top: 80px;
+    font-size: large;
+}
+
+#nemed {
+    position: absolute;
+    left: 35px;
+    top: 150px;
+    font-size: large;
+}
+
+#nem {
+    position: absolute;
+    left: 200px;
+    top: 168px;
+}
+
+#email {
+    position: absolute;
+    left: 35px;
+    top: 200px;
+    font-size: large;
+}
+
+#emailed {
+    position: absolute;
+    left: 200px;
+    height: 30px;
+    width: 300px;
+    top: 210px;
+}
+
+#telefon {
+    position: absolute;
+    left: 35px;
+    top: 250px;
+    font-size: large;
+}
+
+#szam {
+    position: absolute;
+    left: 200px;
+    height: 35px;
+    width: 50px;
+    top: 260px;
+}

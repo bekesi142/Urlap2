@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edigital 2</title>
+    <link rel="stylesheet" href="edigital2.css">
+</head>
+
+<body>
+    <h1>Alapadatok</h1>
+    <div>
+        <p id="teljes">Teljes neved</p>
+
+        <form action="/action_page.php">
+            <input type="text" id="neved"><br><br>
+        </form>
+
+        <p id="nemed">Nemed</p>
+
+        <form action="/action_page.php" id="nem">
+            <input type="radio" id="ferfi" name="gender" value="ferfi">
+            <label for="male">Férfi</label>
+            <input type="radio" id="no" name="gender" value="no">
+            <label for="female">Nő</label>
+          </form> 
+
+          <p id="email">Email</p>
+
+          <form action="/action_page.php">
+            <input type="text" id="emailed"><br><br>
+        </form>
+
+        <p id="telefon">Telefonszám</p>
+
+        <form action="/action_page.php">
+            <select id="szam" name="szam">
+              <option value="36">+36</option>
+            </select>
+          </form>
+
+
+    </div>
+
+</body>
+
+</html>
